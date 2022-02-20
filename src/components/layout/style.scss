@@ -1,0 +1,83 @@
+.al-layout {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ddd;
+
+    .al-Sider {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 175px;
+        overflow-x: auto;
+        background-color: #FC740F;
+        // 取消双击选中事件
+        user-select: none;
+
+        .al-logo {
+            text-align: center;
+            padding: 20px 0;
+
+            img {
+                display: inline-block;
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+            }
+        }
+
+        .ant-menu {
+            background-color: #FC740F;
+
+            .ant-menu-item-selected {
+                background-color: #eeeeee;
+
+                span {
+                    color: #FC740F;
+
+                    a {
+                        color: #FC740F;
+                    }
+                }
+            }
+        }
+    }
+
+    .al-Header {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 175px;
+        box-sizing: border-box;
+        padding-left: 20px;
+        background-color: #eee;
+
+        h2 {
+            color: #FC740F;
+        }
+    }
+
+    .al-Content {
+        border-top: 4px solid #FC740F;
+        position: absolute;
+        top: 64px;
+        bottom: 0;
+        right: 0;
+        left: 175px;
+        overflow: auto;
+        min-width: 800px;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-top: 20px;
+        background-color: #eeeeee;
+        padding-right: 20px;
+    }
+
+    .ant-layout {
+        height: 100%;
+    }
+}
