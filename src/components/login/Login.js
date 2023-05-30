@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Input, Button, Checkbox } from 'antd';
 import { fetchLogin } from '@/utils/api';
-import './style.scss'
+import './style.less'
 import { withRouter } from 'react-router-dom'
 
 

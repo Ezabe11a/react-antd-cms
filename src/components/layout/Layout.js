@@ -3,7 +3,7 @@ import AlContent from './Content';
 import AlHeader from './Header';
 import AlSider from './Sider';
 import { Layout } from 'antd';
-import './style.scss';
+import './style.less';
 const { Header, Sider, Content } = Layout
 
 export default class AlLayout extends React.Component {

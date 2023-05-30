@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/css/app.scss';
+import './assets/css/app.less';
 import 'antd/dist/antd.css'
 
 export default class Count extends React.Component {

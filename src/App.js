@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/css/app.scss';
+import './assets/css/app.less';
 import 'antd/dist/antd.css'
 
 // import { fetchUsers } from '@/utils/api';
@@ -31,8 +31,8 @@ export default class App extends React.Component {
     return (
       <HashRouter>
         <Provider store={store}>
-          <Count />
-          {/* {token ? <Layout /> : <Login onLogin={this.onLogin.bind(this)} />} */}
+          {/* <Count /> */}
+          {token ? <Layout /> : <Login onLogin={this.onLogin.bind(this)} />}
         </Provider>
       </HashRouter>
 

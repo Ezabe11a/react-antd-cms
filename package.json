@@ -40,6 +40,8 @@
     "jest-environment-jsdom-fourteen": "1.0.1",
     "jest-resolve": "24.9.0",
     "jest-watch-typeahead": "0.4.2",
+    "less": "^3.13.1",
+    "less-loader": "^5.0.0",
     "mini-css-extract-plugin": "0.9.0",
     "moment": "^2.27.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
@@ -146,7 +148,6 @@
     ]
   },
   "devDependencies": {
-    "http-proxy-middleware": "^1.0.5",
-    "node-sass": "^4.14.1"
+    "http-proxy-middleware": "^1.0.5"
   }
 }

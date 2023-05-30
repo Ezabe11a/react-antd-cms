@@ -12,7 +12,7 @@ import { AlCateSelect } from '@/components';
 import { connect } from 'react-redux';
 import { toDate } from '@/utils/date';
 import { getGoodList } from '@/store/actions/goodAction';
-import './style.scss'
+import './style.less'
 
 const { RangePicker } = DatePicker;
 
